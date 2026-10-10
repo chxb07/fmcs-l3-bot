@@ -1,0 +1,5 @@
+beautifulsoup4>=4.15
+playwright>=1.63
+python_telegram_bot>=22.8
+python-dotenv>=1.2
+requests>=2.34

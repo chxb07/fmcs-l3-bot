@@ -1,0 +1,37 @@
+# Environment & Secrets
+.env
+*.env
+
+# State files & local data
+seen_posts.json
+seen_posts.json.tmp
+seen_posts.tmp
+baseline_state.json
+baseline_state.json.tmp
+baseline_state.tmp
+*.json.tmp
+*.tmp
+*.log
+
+# Local scratch outputs (keep scripts; ignore generated dumps)
+scratch/*.png
+scratch/*.html
+scratch/*.xml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Playwright & Browsers
+.playwright/
+test-results/
+
+# IDE & OS
+.vscode/
+.idea/
+.ds_store
+Thumbs.db
